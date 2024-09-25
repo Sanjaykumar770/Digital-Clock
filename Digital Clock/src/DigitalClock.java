@@ -19,7 +19,7 @@ public class DigitalClock extends JFrame {
         container.setLayout(new GridBagLayout());
         container.setBackground(Color.white);
         JPanel clockPanel = new JPanel();
-        clockPanel.setPreferredSize(new Dimension(250, 100));
+        clockPanel.setPreferredSize(new Dimension(400, 100));
         clockPanel.setBackground(Color.gray);
         clockPanel.setBorder(new LineBorder(Color.WHITE, 5));
         timeLabel = new JLabel();
