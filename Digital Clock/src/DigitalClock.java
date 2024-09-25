@@ -26,7 +26,7 @@ public class DigitalClock extends JFrame {
         timeLabel.setFont(new Font("Verdana", Font.PLAIN, 50));
         timeLabel.setForeground(Color.black);
         timeLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        timeFormat = new SimpleDateFormat("HH:mm:ss");
+        timeFormat = new SimpleDateFormat("HH:mm:ss a");
         clockPanel.add(timeLabel);
         container.add(clockPanel);
         add(container);
